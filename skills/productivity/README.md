@@ -4,7 +4,9 @@ General workflow tools, not code-specific.
 
 ## User-invoked
 
-Reachable only when you type them (Claude Code: `disable-model-invocation: true`; Codex: `policy.allow_implicit_invocation: false` in `agents/openai.yaml`).
+Reachable only when you type them in OpenAI because
+`policy.allow_implicit_invocation: false` is set in `agents/openai.yaml`.
+Upstream owns the corresponding policy for other harnesses.
 
 - **[grill-me](./grill-me/SKILL.md)** — Get relentlessly interviewed about a plan or design until every branch of the decision tree is resolved.
 - **[handoff](./handoff/SKILL.md)** — Compact the current conversation into a handoff document so another agent can continue the work.

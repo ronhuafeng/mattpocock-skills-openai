@@ -1,3 +1,9 @@
+> **OpenAI-canonical mirror:** This repository derives from
+> `mattpocock/skills@ed37663c` and canonicalizes the deployment-selected aliases
+> for OpenAI. Their invocation policy lives only in `agents/openai.yaml`.
+> Upstream remains the authority for the cross-harness distribution and for
+> skills outside the selected alias set.
+
 <p>
   <a href="https://www.aihero.dev/s/skills-newsletter">
     <picture>
